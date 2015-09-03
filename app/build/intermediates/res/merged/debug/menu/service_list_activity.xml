@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/action_reconnect"
+        android:showAsAction="withText|ifRoom"
+        android:title="@string/action_reconnect"/>
+
+</menu><!-- From: file:/Users/legendmohe/AndroidstudioProjects/BLEDemo/app/src/main/res/menu/service_list_activity.xml -->

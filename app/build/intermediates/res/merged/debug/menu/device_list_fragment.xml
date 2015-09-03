@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bledemo.MainActivity" >
+
+    <item
+        android:id="@+id/action_scan"
+        android:orderInCategory="100"
+        android:showAsAction="withText|ifRoom"
+        android:title="@string/action_ble_stop_scan"/>
+
+</menu>
+<!-- From: file:/Users/legendmohe/AndroidstudioProjects/BLEDemo/app/src/main/res/menu/device_list_fragment.xml -->

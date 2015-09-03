@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/characteristic_detail_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/characteristic_desc_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="Descriptors List:"
+        android:textSize="14sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <ListView
+        android:id="@+id/characteristic_desc_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/characteristic_value_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="Characteristic Value:"
+        android:textSize="14sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/characteristic_value_hex_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="characteristic_value_hex_textview"
+            android:textSize="12sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/characteristic_value_string_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="characteristic_value_string_textview"
+            android:textSize="12sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/characteristic_value_int_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="characteristic_value_int_textview"
+            android:textSize="12sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/characteristic_value_stmp_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="characteristic_value_stmp_textview"
+            android:textSize="12sp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/characteristic_read_btn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/characteristic_write_btn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="write"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/characteristic_notify_btn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="notify"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/characteristic_indicate_btn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="indicate"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/legendmohe/AndroidstudioProjects/BLEDemo/app/src/main/res/layout/characteristic_detail_activity.xml -->
